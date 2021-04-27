@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-    class CategoryManager
+   public class CategoryManager
     {
         GenericRepository<Category> repo = new GenericRepository<Category>();
 
