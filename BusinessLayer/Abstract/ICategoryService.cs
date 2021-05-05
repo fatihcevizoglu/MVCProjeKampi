@@ -10,5 +10,6 @@ namespace BusinessLayer.Abstract
     interface ICategoryService
     {
         List<Category> GetList();
+        void CategoryAdd(Category category);
     }
 }
